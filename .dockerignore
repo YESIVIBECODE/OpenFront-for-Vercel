@@ -1,0 +1,21 @@
+node_modules
+Dockerfile*
+docker-compose*
+.dockerignore
+.git
+.gitignore
+README.md
+LICENSE
+.vscode
+Makefile
+helm-charts
+.env*
+.editorconfig
+.idea
+coverage*
+tests/
+# The security module's own tests and git metadata (src/server/gatekeeper).
+src/server/gatekeeper/tests/
+src/server/gatekeeper/.git
+scripts/replay/
+scripts/split-packages/
